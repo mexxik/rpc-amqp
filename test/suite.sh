@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+nodeunit connection.unit.js call.unit.js
