@@ -1,9 +1,5 @@
 .idea
 
-logs
-*.log
 *.iml
-
-build/Release
 
 node_modules
