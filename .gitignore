@@ -1,0 +1,8 @@
+.idea
+
+logs
+*.log
+
+build/Release
+
+node_modules
