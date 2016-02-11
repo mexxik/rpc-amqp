@@ -18,6 +18,5 @@ exports.group = {
                 sender.call('simpleCall', number, function(){});
             });
         });
-        //test.done();
     }
 }
