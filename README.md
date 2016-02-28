@@ -97,5 +97,14 @@ client.register('getRandomNumber', function (params, response) {
 });
 ```
 
+#Routing
+
+##Path
+
+##ID
+
+##Roles
+
 #Examples
 [01 Basic - Random Number](examples/01_basic/01_basic.md)
+[02 Roles - Multiple Servers](examples/02_roles/02_roles.md)

@@ -2,6 +2,8 @@
 
 This example show a simple set up that allows to request a random number from a remote application.
 
+Start the server with `node server` then th client `node client`.
+
 ##Server
 
 ```javascript

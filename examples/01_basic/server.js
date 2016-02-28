@@ -1,10 +1,10 @@
 var RPC = require('./../../index');
-var client = RPC.create();
+var server = RPC.create();
 
-client.connect();
+server.connect();
 
-client.on('ready', function() {
-    client.register('getRandomNumber', function (params, response) {
+server.on('ready', function() {
+    server.register('getRandomNumber', function (params, response) {
         var number = Math.random();
 
         response(number);
