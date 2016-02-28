@@ -96,3 +96,6 @@ client.register('getRandomNumber', function (params, response) {
     response(number);
 });
 ```
+
+#Examples
+[01 Basic - Random Number](examples/01_basic/01_basic.md)
