@@ -27,17 +27,18 @@ server.on('ready', function() {
 var RPC = require('rpc-amqp');
 var server = RPC.create();
 
-server.connect({roles: ['server-1']});
+server.connect({roles: ['server-2']});
 
 server.on('ready', function() {
     server.register('getValue', function (params, response) {
-        response(1);
+        response(2);
     });
 });
 ```
 
 ##Client
 
+```javascript
 var async = require('async');
 
 var RPC = require('rpc-amqp');
