@@ -1,6 +1,6 @@
 {
   "name": "rpc-amqp",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "",
   "keywords" : [ "amqp", "rpc", "rpc-amqp" ],
   "homepage" : "https://github.com/mexxik/rpc-amqp",
