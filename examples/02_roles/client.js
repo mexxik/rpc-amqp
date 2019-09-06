@@ -11,24 +11,24 @@ client.on('ready', function() {
 
     async.series([
         function(callback) {
-            client.call('getValue', {}, { route: '*.server-1.*'}, function(result) {
+            client.call('getValue', {}, { route: 'app.#'}, function(result) {
                 result1 = result;
 
                 callback();
             });
-        },
-        function(callback) {
+        }
+        /*function(callback) {
             client.call('getValue', {}, { route: '*.server-2.*'}, function(result) {
                 result2 = result;
 
                 callback();
             });
-        },
-        function(callback) {
+        },*/
+        /*function(callback) {
             console.log('result 1: "%d", result 2: "%d"', result1, result2);
 
             callback();
-        }
+        }*/
     ], function(err) {
         if (err) {
             console.log('async error');

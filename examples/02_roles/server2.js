@@ -5,6 +5,7 @@ server.connect({roles: ['server-2']});
 
 server.on('ready', function() {
     server.register('getValue', function (params, response) {
-        response(2);
+        console.log("rewards got")
+        response(2453535);
     });
 });
