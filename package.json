@@ -1,13 +1,17 @@
 {
   "name": "rpc-amqp",
-  "version": "0.1.17",
+  "version": "0.2.18",
   "description": "",
-  "keywords" : [ "amqp", "rpc", "rpc-amqp" ],
-  "homepage" : "https://github.com/mexxik/rpc-amqp",
+  "keywords": [
+    "amqp",
+    "rpc",
+    "rpc-amqp"
+  ],
+  "homepage": "https://github.com/mexxik/rpc-amqp",
   "main": "index.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/mexxik/rpc-amqp.git"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mexxik/rpc-amqp.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

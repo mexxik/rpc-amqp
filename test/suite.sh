@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-nodeunit connection.unit.js call.unit.js multi.unit.js roles.unit.js timeouts.unit.js
+nodeunit test/connection.unit.js test/call.unit.js test/multi.unit.js test/roles.unit.js test/timeouts.unit.js test/gather.unit.js
